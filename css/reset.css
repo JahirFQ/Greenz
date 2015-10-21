@@ -1,0 +1,105 @@
+/*
+Description: RSN. Base Style Sheet
+Author: PostBox Communications
+Author URI: pbc.
+Template: ""
+Version: 1.0
+.
+The information contained in this electronic document is solely for the use of/in this particular project. It may contain proprietary, confidential and/or legally privileged information. Any review, retransmission, dissemination, printing, copying or other use of, or taking any action in reliance on the contents of this information by person(s) or entities other than the intended recipient is strictly prohibited and may be unlawful. If you have received this communication in error, please notify us by responding to this email or telephone and immediately and permanently delete all copies of this message and any attachments from your system(s). Computer viruses can be transmitted via email. rsn. attempts to sweep e-mails and attachments for viruses, it does not guarantee that either are virus free. The recipient should check this email and any attachments for the presence of viruses. rsn. does not accept any liability for any damage sustained as a result of viruses.
+.
+
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, b, u, i, center, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;/*    vertical-align: baseline; */
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+ li{
+	}
+
+blockquote, q {
+	quotes: none;
+	
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	text-decoration:none;
+	border:0px;
+}
+
+
+
+
+/* remember to define visible focus styles! 
+The :focus selector is used to select the element that has focus.
+Tip: The :focus selector is allowed on elements that accept keyboard events or other user inputs.
+
+Note: For :focus to work in IE 8 (and higher), a <!DOCTYPE> must be declared.
+
+
+HTML 4.01 Strict
+
+This DTD contains all HTML elements and attributes, but does NOT INCLUDE presentational or deprecated elements (like font and center). Framesets are not allowed:
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+--------------------------------------------------------------------------------------------------
+HTML 4.01 Transitional
+
+This DTD contains all HTML elements and attributes, INCLUDING presentational and deprecated elements (like font). Framesets are not allowed:
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+--------------------------------------------------------------------------------------------------
+HTML 4.01 Frameset
+
+This DTD is equal to HTML 4.01 Transitional, but allows the use of frameset content:
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+"http://www.w3.org/TR/html4/frameset.dtd">
+
+*/
+:focus {
+	outline:none;
+}
+/* Insert and Del work in coordination when the display of a value needs to be highlighted as cancelled and a new value needs to be inserted; like in a shopping cart, old price needs to be strike-through and new value needs to be highlighted. */
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+

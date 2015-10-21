@@ -1,0 +1,11 @@
+
+
+/** MyriadPro-Regular **/
+@font-face {
+	font-family: 'Conv_MyriadPro-Regular';
+	src: url('../fonts/GOTHIC.eot');
+	src: local('☺'), url('../fonts/GOTHIC.TTF') format('TTF'), url('../fonts/GOTHICB.TTF') format('TTF'), url('../fonts/gothic.svg') format('svg');
+}
+
+
+
